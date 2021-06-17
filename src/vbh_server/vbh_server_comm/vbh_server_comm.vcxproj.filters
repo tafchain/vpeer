@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="merkel_tree">
+      <UniqueIdentifier>{ed92e881-e8ef-4f87-be4d-9a1479e65c7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vbh_const_length_storage">
+      <UniqueIdentifier>{195af86a-4390-473f-9221-de14d2198bed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vbh_const_length_storage\vbfs">
+      <UniqueIdentifier>{9c6f83a0-c59f-4736-876c-610bf34ff572}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="merkel_tree\merkel_tree.cpp">
+      <Filter>merkel_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="vbh_const_length_storage\vbh_append_table.cpp">
+      <Filter>vbh_const_length_storage</Filter>
+    </ClCompile>
+    <ClCompile Include="vbh_const_length_storage\vbh_record_table.cpp">
+      <Filter>vbh_const_length_storage</Filter>
+    </ClCompile>
+    <ClCompile Include="vbh_const_length_storage\vbh_update_table.cpp">
+      <Filter>vbh_const_length_storage</Filter>
+    </ClCompile>
+    <ClCompile Include="vbh_block_codec.cpp" />
+    <ClCompile Include="vbh_committer_router.cpp" />
+    <ClCompile Include="vbh_const_length_storage\vbh_multi_update_table.cpp">
+      <Filter>vbh_const_length_storage</Filter>
+    </ClCompile>
+    <ClCompile Include="vbh_const_length_storage\vbfs\vbfs_raw.cpp">
+      <Filter>vbh_const_length_storage\vbfs</Filter>
+    </ClCompile>
+    <ClCompile Include="vbh_const_length_storage\vbfs\vbfs.cpp">
+      <Filter>vbh_const_length_storage\vbfs</Filter>
+    </ClCompile>
+    <ClCompile Include="vbh_const_length_storage\vbh_page_table.cpp">
+      <Filter>vbh_const_length_storage</Filter>
+    </ClCompile>
+    <ClCompile Include="vbh_const_length_storage\vbh_cls_config_param.cpp">
+      <Filter>vbh_const_length_storage</Filter>
+    </ClCompile>
+    <ClCompile Include="vbh_const_length_storage\vbfs\vbfs_file.cpp">
+      <Filter>vbh_const_length_storage\vbfs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="merkel_tree\merkel_tree.h">
+      <Filter>merkel_tree</Filter>
+    </ClInclude>
+    <ClInclude Include="vbh_const_length_storage\vbh_append_table.h">
+      <Filter>vbh_const_length_storage</Filter>
+    </ClInclude>
+    <ClInclude Include="vbh_const_length_storage\vbh_record_table.h">
+      <Filter>vbh_const_length_storage</Filter>
+    </ClInclude>
+    <ClInclude Include="vbh_const_length_storage\vbh_update_table.h">
+      <Filter>vbh_const_length_storage</Filter>
+    </ClInclude>
+    <ClInclude Include="vbh_block_codec.h" />
+    <ClInclude Include="vbh_committer_router.h" />
+    <ClInclude Include="vbh_server_comm_def_export.h" />
+    <ClInclude Include="vbh_unite_dqueue.h" />
+    <ClInclude Include="vbh_const_length_storage\vbh_multi_update_table.h">
+      <Filter>vbh_const_length_storage</Filter>
+    </ClInclude>
+    <ClInclude Include="vbh_const_length_storage\vbh_cls_config_param.h">
+      <Filter>vbh_const_length_storage</Filter>
+    </ClInclude>
+    <ClInclude Include="vbh_const_length_storage\vbfs\vbfs_comm.h">
+      <Filter>vbh_const_length_storage\vbfs</Filter>
+    </ClInclude>
+    <ClInclude Include="vbh_const_length_storage\vbfs\vbfs_raw.h">
+      <Filter>vbh_const_length_storage\vbfs</Filter>
+    </ClInclude>
+    <ClInclude Include="vbh_const_length_storage\vbfs\i_vbfs_impl.h">
+      <Filter>vbh_const_length_storage\vbfs</Filter>
+    </ClInclude>
+    <ClInclude Include="vbh_const_length_storage\vbfs\vbfs.h">
+      <Filter>vbh_const_length_storage\vbfs</Filter>
+    </ClInclude>
+    <ClInclude Include="vbh_const_length_storage\vbh_page_table.h">
+      <Filter>vbh_const_length_storage</Filter>
+    </ClInclude>
+    <ClInclude Include="vbh_const_length_storage\vbfs\vbfs_config_select_def.h">
+      <Filter>vbh_const_length_storage\vbfs</Filter>
+    </ClInclude>
+    <ClInclude Include="vbh_const_length_storage\vbfs\vbfs_file.h">
+      <Filter>vbh_const_length_storage\vbfs</Filter>
+    </ClInclude>
+    <ClInclude Include="vbh_transaction_def.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="merkel_tree\merkel_tree.inl">
+      <Filter>merkel_tree</Filter>
+    </None>
+    <None Include="vbh_const_length_storage\vbh_append_table.inl">
+      <Filter>vbh_const_length_storage</Filter>
+    </None>
+    <None Include="vbh_const_length_storage\vbh_record_table.inl">
+      <Filter>vbh_const_length_storage</Filter>
+    </None>
+    <None Include="vbh_const_length_storage\vbh_update_table.inl">
+      <Filter>vbh_const_length_storage</Filter>
+    </None>
+    <None Include="vbh_block_codec.inl" />
+    <None Include="vbh_committer_router.inl" />
+    <None Include="vbh_unite_dqueue.inl" />
+    <None Include="vbh_const_length_storage\vbh_multi_update_table.inl">
+      <Filter>vbh_const_length_storage</Filter>
+    </None>
+    <None Include="vbh_const_length_storage\vbfs\vbfs_raw.inl">
+      <Filter>vbh_const_length_storage\vbfs</Filter>
+    </None>
+    <None Include="vbh_const_length_storage\vbh_page_table.inl">
+      <Filter>vbh_const_length_storage</Filter>
+    </None>
+    <None Include="vbh_const_length_storage\vbfs\vbfs_file.inl">
+      <Filter>vbh_const_length_storage\vbfs</Filter>
+    </None>
+    <None Include="vbh_transaction_def.inl" />
+  </ItemGroup>
+</Project>

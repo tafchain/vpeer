@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="block_chain_table\block_chain_table.cpp">
+      <Filter>block_chain_table</Filter>
+    </ClCompile>
+    <ClCompile Include="cas\committer_agent_service_factory.cpp">
+      <Filter>cas</Filter>
+    </ClCompile>
+    <ClCompile Include="cas\committer_agent_service.cpp">
+      <Filter>cas</Filter>
+    </ClCompile>
+    <ClCompile Include="cs\committer_service_plugin.cpp">
+      <Filter>cs</Filter>
+    </ClCompile>
+    <ClCompile Include="cs\committer_service.cpp">
+      <Filter>cs</Filter>
+    </ClCompile>
+    <ClCompile Include="cs\committer_service_factory.cpp">
+      <Filter>cs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="block_chain_table\block_chain_table.h">
+      <Filter>block_chain_table</Filter>
+    </ClInclude>
+    <ClInclude Include="cas\committer_agent_service.h">
+      <Filter>cas</Filter>
+    </ClInclude>
+    <ClInclude Include="cas\committer_agent_service_factory.h">
+      <Filter>cas</Filter>
+    </ClInclude>
+    <ClInclude Include="cas\i_committer_agent_service.h">
+      <Filter>cas</Filter>
+    </ClInclude>
+    <ClInclude Include="cs\committer_service_factory.h">
+      <Filter>cs</Filter>
+    </ClInclude>
+    <ClInclude Include="cs\committer_service_plugin.h">
+      <Filter>cs</Filter>
+    </ClInclude>
+    <ClInclude Include="cs\i_committer_service.h">
+      <Filter>cs</Filter>
+    </ClInclude>
+    <ClInclude Include="cs\committer_service.h">
+      <Filter>cs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="block_chain_table\block_chain_table.inl">
+      <Filter>block_chain_table</Filter>
+    </None>
+    <None Include="cas\committer_agent_service.inl">
+      <Filter>cas</Filter>
+    </None>
+    <None Include="cs\committer_service.inl">
+      <Filter>cs</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="block_chain_table">
+      <UniqueIdentifier>{5fe2de02-24e9-438d-a873-b0a59e6b87a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cs">
+      <UniqueIdentifier>{57993888-2572-42b8-aebd-8968467ae7a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cas">
+      <UniqueIdentifier>{6397a393-f6b5-45b2-ba48-0d334af9a285}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

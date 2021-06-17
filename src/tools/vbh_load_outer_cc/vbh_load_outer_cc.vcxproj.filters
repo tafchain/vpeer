@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="vbh_perf_test_regist_main.cpp" />
+    <ClCompile Include="vbh_perf_test_regist_appmanager.cpp" />
+    <ClCompile Include="vbh_perf_test_regist_service.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vbh_perf_test_regist_appmanager.h" />
+    <ClInclude Include="vbh_perf_test_regist_service.h" />
+    <ClInclude Include="..\vbh_perf_test\vbh_perf_test_comm\vbh_perf_test_comm_id_def.h">
+      <Filter>vbh_perf_test_comm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vbh_perf_test\vbh_perf_test_comm\vbh_perf_test_comm_msg_def.h">
+      <Filter>vbh_perf_test_comm</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="vbh_perf_test_comm">
+      <UniqueIdentifier>{78cce266-0ad2-4c11-b651-92bde9a72d63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

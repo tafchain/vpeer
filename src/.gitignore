@@ -1,0 +1,6 @@
+debug
+Debug
+/.vs
+*.vcxproj.user
+*.o
+*.aps
